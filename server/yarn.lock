@@ -497,6 +497,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.npmmirror.com/dotenv/download/dotenv-14.1.0.tgz#66e9c0c448501b006f4dd9f08080c9011c7a5e6c"
+  integrity sha512-h8V+Yfa8m0YSjf3Rgbno51cxWldb4PEixIJVL55VmW7uAfeLQKiaPrEUiBps+ARK9MeqjJgTf269OMmu6lOODQ==
+
 dotnet@^1.1.4:
   version "1.1.4"
   resolved "https://registry.npmmirror.com/dotnet/download/dotnet-1.1.4.tgz#7acc945452734c1ae7111002a4287aa30075cf8b"

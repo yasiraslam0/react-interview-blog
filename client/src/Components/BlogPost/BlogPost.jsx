@@ -22,13 +22,12 @@ export default function BlogPost() {
   }, [getData]);
 
   function onDel(e) {
-    console.log(e);
     let a = getData[e];
-
     axios
       .post("http://localhost:3500/del", a)
       .then((res) => console.log(res.data));
   }
+
   const onRead = (e, i) => {
     dispatch(BLOG_ID(getData[i]._id));
     localStorage.setItem("readPost", JSON.stringify(e));
